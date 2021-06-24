@@ -1,0 +1,142 @@
+/* Header component */
+.header__logo{
+  height:40px;
+  object-fit: contain;
+}
+.header{
+  margin-top: 20px !important;
+padding:20px;
+background-color: white;
+display:flex;
+position: sticky;
+top:0;
+z-index: 1;
+border-bottom: 1px solid lightgray;
+object-fit: contain;
+justify-content:space-between;
+height: 20px;
+}
+/* for login,etc...*/
+.header__modal{
+margin-left: auto;
+}
+.header__signUp{
+  display:flex;
+  flex-direction: column;
+}
+
+/* max-width for entire post component */
+.post{
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color:white;
+  border: 1px solid lightgray;
+  margin-bottom:50px;
+}
+
+/* post component image */
+.post__image{
+object-fit: contain;
+width: 100%;
+border-top: 1px solid lightgray;
+border-bottom: 1px solid lightgray;
+
+}
+/* post header */
+.post__header{
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+/* post comment */
+.post__text{
+  font-weight: normal;
+  padding: 10px;
+}
+
+/* post avatar */
+.post__avtar{
+  margin-right: 10px;
+}
+
+/* for image upload component */
+.imageUpload{
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin-left:auto;
+  margin-right:auto;
+  text-align: center;
+  align-items: center; 
+}
+
+/* progress tag */
+.imageUpload__progress{
+  width:100%;
+}
+
+.header__showuploadFile{
+  position:fixed;
+  bottom:0;
+  background-color:#fafafa;
+  align-items: center;
+  margin-left: auto;
+}
+
+/* app componet */
+.header__post{
+  padding:20px;
+}
+
+/* for post component */
+.post__commentBox{
+  display:flex;
+  margin-top: 10px;
+}
+.post__inputComment{
+flex: 1;
+border:none;
+padding:10px;
+border-top: 1px solid lightgray;
+}
+.post__button{
+flex: 0;
+border: none;
+border-top: 1px solid lightgray;
+color:#6082a3;
+}
+
+.post__comments{
+  /* color:red; */
+  padding: auto;
+  margin: 10px;
+}
+
+/* for profile details. */
+.profileDetail{
+max-width: 300px;
+margin-top: 100px;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+align-items: center;
+/* position: sticky; */
+top: 0;
+
+
+
+}
+.profileDetail__avtar{ 
+  text-align:center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 9px;
+  /* position: sticky; */
+
+}
+.profileDetail__userName{
+  color:black;
+
+}
